@@ -1,0 +1,6 @@
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 1\BattleOfTheAncientsDiceGame\BattleOfTheAncientsDiceGame\bin\Debug\BattleOfTheAncientsDiceGame.exe.config
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 1\BattleOfTheAncientsDiceGame\BattleOfTheAncientsDiceGame\bin\Debug\BattleOfTheAncientsDiceGame.exe
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 1\BattleOfTheAncientsDiceGame\BattleOfTheAncientsDiceGame\bin\Debug\BattleOfTheAncientsDiceGame.pdb
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 1\BattleOfTheAncientsDiceGame\BattleOfTheAncientsDiceGame\obj\Debug\BattleOfTheAncientsDiceGame.csprojResolveAssemblyReference.cache
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 1\BattleOfTheAncientsDiceGame\BattleOfTheAncientsDiceGame\obj\Debug\BattleOfTheAncientsDiceGame.exe
+C:\Users\Nathaniel\Desktop\DCC Lectures\C# projects\Week 1\BattleOfTheAncientsDiceGame\BattleOfTheAncientsDiceGame\obj\Debug\BattleOfTheAncientsDiceGame.pdb
