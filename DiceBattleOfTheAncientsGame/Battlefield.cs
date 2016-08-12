@@ -40,18 +40,18 @@ namespace DiceBattleOfTheAncientsGame
                     if ((20 - i) % 2 == 0)
                     {
                         {
-                            Console.WriteLine("\n\n\n\n\n\n\n\n----------------{0}({2}) will attempt to attack {1}({3})", player1.name, player2.name, player1.healthTotal, player2.healthTotal);
+                            Console.WriteLine("\n\n\n\n\n\n\n\n--------------{0}({2}) will attempt to attack {1}({3})", player1.name, player2.name, player1.healthTotal, player2.healthTotal);
                             player2.healthTotal = player2.healthTotal - counterResult();
-                            Console.WriteLine("----------------{0}'s Health is now {1}", player2.name, player2.healthTotal);
+                            Console.WriteLine("---------------{0}'s Health is now {1}", player2.name, player2.healthTotal);
                             Console.ReadLine();
                             Console.Clear();
                         }
                     }
                     else
                     {
-                        Console.WriteLine("\n\n\n\n\n\n\n\n----------------{0}({2}) will attempt to attack {1}({3})", player2.name, player1.name, player2.healthTotal, player1.healthTotal);
+                        Console.WriteLine("\n\n\n\n\n\n\n\n--------------{0}({2}) will attempt to attack {1}({3})", player2.name, player1.name, player2.healthTotal, player1.healthTotal);
                         player1.healthTotal = player1.healthTotal - counterResult();
-                        Console.WriteLine("----------------{0}'s Health is now {1}", player1.name, player1.healthTotal);
+                        Console.WriteLine("--------------{0}'s Health is now {1}", player1.name, player1.healthTotal);
                         Console.ReadLine();
                         Console.Clear(); 
                 }
@@ -72,11 +72,11 @@ namespace DiceBattleOfTheAncientsGame
         {
             if (player2.isAlive() == false)
             {
-                Console.WriteLine("\n\n\n\n\n\n\n\n----------------{0} WINS!!!", player1.name);
+                Console.WriteLine("\n\n\n\n\n\n\n\n--------------{0} WINS!!!", player1.name);
                 Console.ReadLine();
             } else
             {
-                Console.WriteLine("\n\n\n\n\n\n\n\n----------------{0} WINS!!!", player2.name);
+                Console.WriteLine("\n\n\n\n\n\n\n\n--------------{0} WINS!!!", player2.name);
                 Console.ReadLine();
             }
         }
@@ -91,20 +91,20 @@ namespace DiceBattleOfTheAncientsGame
             int result = dice8.GetRandomNum();
             if (result < 3)
             {
-                Console.WriteLine("----------------The attack is blocked");
-                Console.WriteLine("----------------Damage done is {0}", blockAttack());
+                Console.WriteLine("--------------The attack is blocked");
+                Console.WriteLine("--------------Damage done is {0}", blockAttack());
                 return blockAttack();
             }
             else if (result < 6)
             {
-                Console.WriteLine("----------------Tried to block/parry the attack but take aditional damage instead");
-                Console.WriteLine("----------------Damage done is {0}", parryAttack());
+                Console.WriteLine("--------------Tried to block/parry the attack but take aditional damage instead");
+                Console.WriteLine("--------------Damage done is {0}", parryAttack());
                 return parryAttack();
             }
             else
             {
-                Console.WriteLine("----------------The attack hits, but the damage is reduced");
-                Console.WriteLine("----------------Damage done is {0}", reduceAttack());
+                Console.WriteLine("--------------The attack hits, but the damage is reduced");
+                Console.WriteLine("--------------Damage done reduced to {0}", reduceAttack());
                 return reduceAttack();
             }
         }
