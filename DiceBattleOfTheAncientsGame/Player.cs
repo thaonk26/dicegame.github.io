@@ -11,36 +11,26 @@ namespace DiceBattleOfTheAncientsGame
         public int healthTotal;
         public string name;
         public bool alive;
-        public int attackDamage;
-        public Player(string Name)
+        public Player(string Name, int TotalHealth)
         {
-            healthTotal = AddedHealth();
-            attackDamage = takeDamage();
+
+            this.healthTotal = TotalHealth;
             this.name = Name;
-            alive = true;
+            this.alive = true;
         }
-        public int AddedHealth()
-        {
-            Dice dice = new Dice(20);
-            int rollTwenty = dice.GetRandomNum();
-            return rollTwenty + 20;
-        }
+        
         public bool isAlive()
         {
             if (healthTotal <= 0)
             {
-                return alive = false;
+                return this.alive = false;
             }else
             {
-                return alive = true;
+                return this.alive = true;
             }
         }
-        public int takeDamage()
-        {
-            Dice dice = new Dice(6);
-            int doDamage = dice.GetRandomNum();
-            return doDamage;
-        }
+        
+       
 
     }
 }
