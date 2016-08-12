@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BattleOfTheAncientsDiceGame
+namespace DiceBattleOfTheAncientsGame
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Dice dice = new Dice();
-            
-            Battlefield field = new Battlefield();
-            field.Run();
+            Battlefield battle = new Battlefield();
+            battle.RunGame();
         }
     }
 }
